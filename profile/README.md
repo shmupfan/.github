@@ -4,7 +4,7 @@
 
 MiSTer FPGA arcade cores and tools, mostly for shoot 'em ups.
 
-[Accuracy method](../ACCURACY.md): how the cores are checked, and evidence we are looking for.
+[Accuracy method](https://github.com/shmupfan/.github/blob/main/ACCURACY.md): how the cores are checked, and evidence we are looking for.
 
 ## Cores
 
