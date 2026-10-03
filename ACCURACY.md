@@ -9,8 +9,8 @@ measurements shared by board owners, and MAME, ranked as below.
 
 | Rank | Source | Examples |
 |---|---|---|
-| 1 | Real-board measurements | Scope, logic analyser, frequency counter, direct audio capture |
-| 2 | Decapped silicon | fx68k, Nuked-OPM/OPN/OPL, IKA cores |
+| 1 | Real-board measurements (shared by board owners) | Scope, logic analyser, frequency counter, direct audio capture |
+| 2 | Die-level models of decapped chips | fx68k, Nuked-OPM/OPN/OPL, IKA cores |
 | 3 | Manufacturer documents | Schematics, parts lists, service manuals, datasheets (second reader for any reading that changes the design) |
 | 4 | Real boards observed | Direct PCB captures (60 fps preferred), 1CC runs, repair logs |
 | 5 | MAME | Frame-by-frame reference; its TODOs mark its guesses |
