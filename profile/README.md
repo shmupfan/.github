@@ -1,8 +1,10 @@
 # shmupfan
 
 MiSTer FPGA arcade cores for games with no existing core, mostly shoot 'em ups.
-Every core is verified against MAME frame by frame and checked against hardware
-documentation; see the [accuracy method](https://github.com/shmupfan/.github/blob/main/ACCURACY.md).
+Behaviour follows real-hardware evidence first: board measurements, decapped
+chips, schematics and datasheets, then PCB footage. MAME is the frame-by-frame
+test baseline, and every difference from it is documented with its cause.
+[Accuracy method](https://github.com/shmupfan/.github/blob/main/ACCURACY.md).
 
 ## Install
 
