@@ -5,12 +5,14 @@ documented with its cause.
 
 ## Evidence, highest first
 
-1. **Real-board measurements:** scope, logic analyser, frequency counter, direct audio capture.
-2. **Decapped silicon:** die-level reconstructions (fx68k, Nuked-OPM/OPN/OPL, IKA cores).
-3. **Manufacturer documents:** schematics, parts lists, service manuals, datasheets. Readings that change the design are checked by a second reader.
-4. **Real boards observed:** direct PCB captures (60 fps preferred), 1CC runs, repair logs.
-5. **MAME:** the frame-by-frame reference. Its TODOs mark its guesses.
-6. **Other cores and emulators:** reference only.
+| Rank | Source | Examples |
+|---|---|---|
+| 1 | Real-board measurements | Scope, logic analyser, frequency counter, direct audio capture |
+| 2 | Decapped silicon | fx68k, Nuked-OPM/OPN/OPL, IKA cores |
+| 3 | Manufacturer documents | Schematics, parts lists, service manuals, datasheets (second reader for any reading that changes the design) |
+| 4 | Real boards observed | Direct PCB captures (60 fps preferred), 1CC runs, repair logs |
+| 5 | MAME | Frame-by-frame reference; its TODOs mark its guesses |
+| 6 | Other cores and emulators | Reference only |
 
 Higher wins on conflict. With nothing above MAME, the core follows MAME and an
 open research item names the evidence needed.
@@ -28,6 +30,13 @@ open research item names the evidence needed.
 
 Findings with numbers, every MAME difference with cause and evidence, open
 research items, and the origin and changes of every borrowed component.
+
+## Upstream
+
+Each core pins the MAME version it was verified against and is re-checked when
+that driver changes. Where evidence shows MAME is wrong, we file a MAME bug
+report with the evidence. Changes to borrowed components are documented in each
+core's provenance file for their authors.
 
 ## Standard features (all cores from the October 2026 updates)
 
