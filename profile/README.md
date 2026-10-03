@@ -31,4 +31,4 @@ Ship / Dyger.
 
 [Shmup Deck](https://github.com/shmupfan/shmup-deck) is a flyer-wall launcher
 that runs on the MiSTer: open it on a phone, tap a flyer, and the game loads.
-It covers 294 shooters on 106 arcade boards.
+New shmupfan cores are added to it as they release.
