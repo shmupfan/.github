@@ -1,10 +1,16 @@
 # shmupfan
 
 MiSTer FPGA arcade cores for games with no existing core, mostly shoot 'em ups.
-Behaviour follows real-hardware evidence first: board measurements, decapped
-chips, schematics and datasheets, then PCB footage. MAME is the frame-by-frame
-test baseline, and every difference from it is documented with its cause.
-[Accuracy method](https://github.com/shmupfan/.github/blob/main/ACCURACY.md).
+
+## Accuracy
+
+- Behaviour follows real-hardware evidence first: board measurements, decapped
+  chips, schematics and datasheets, then PCB footage.
+- MAME is the frame-by-frame test baseline. Every difference from it is
+  documented with its cause and evidence.
+- Findings, research items and test harnesses are published with each core.
+
+Full method: [ACCURACY.md](https://github.com/shmupfan/.github/blob/main/ACCURACY.md).
 
 ## Install
 
