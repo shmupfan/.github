@@ -1,8 +1,8 @@
 # Accuracy method
 
 Every shmupfan core is checked against evidence. Every difference from MAME is
-documented with its cause. We do not decap chips or measure boards ourselves:
-we use published die-level models, chip and board documentation, PCB footage,
+documented with its cause. I do not decap chips or measure boards myself:
+I use published die-level models, chip and board documentation, PCB footage,
 measurements shared by board owners, and MAME, ranked as below.
 
 ## Evidence, highest first
@@ -36,7 +36,7 @@ research items, and the origin and changes of every borrowed component.
 ## Upstream
 
 Each core pins the MAME version it was verified against and is re-checked when
-that driver changes. Where evidence shows MAME is wrong, we file a MAME bug
+that driver changes. Where evidence shows MAME is wrong, I file a MAME bug
 report with the evidence. Changes to borrowed components are documented in each
 core's provenance file for their authors.
 
@@ -50,7 +50,7 @@ other way; volume; MAME keyboard defaults; all known DIP switches; pause.
 
 Open an issue in the core's repository if you can provide any of these:
 
-- Refresh rate or line count measured on any of our boards (Final Star Force is the least certain).
+- Refresh rate or line count measured on any of these boards (Final Star Force is the least certain).
 - 60 fps captures of scene changes in 1945k III or Solite Spirits, and of text appearing in Final Star Force.
 - Cocktail mode on Last Mission or Gondomania (do sprites flip with the screen?).
 - Attract-mode audio of Blue Hawk or Flying Tiger.

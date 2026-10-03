@@ -2,7 +2,7 @@
 
 MiSTer FPGA arcade cores for games with no existing core, mostly shoot 'em ups.
 
-Read how we [strive for accuracy](https://github.com/shmupfan/.github/blob/main/ACCURACY.md).
+Read how I [strive for accuracy](https://github.com/shmupfan/.github/blob/main/ACCURACY.md).
 
 ## Install
 
