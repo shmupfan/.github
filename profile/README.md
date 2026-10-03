@@ -1,32 +1,32 @@
-<img src="logo.png" width="128" align="right" alt="shmupfan logo: a pixel-art fighter firing a laser through a bullet curtain">
-
 # shmupfan
 
-MiSTer FPGA arcade cores and tools, mostly for shoot 'em ups.
+MiSTer FPGA arcade cores for games with no existing core, mostly shoot 'em ups.
+Every core is verified against MAME frame by frame and checked against hardware
+documentation; see the [accuracy method](https://github.com/shmupfan/.github/blob/main/ACCURACY.md).
 
-[Accuracy method](https://github.com/shmupfan/.github/blob/main/ACCURACY.md): how the cores are checked, and evidence we are looking for.
+## Install
 
-## Cores
-
-| Core | Games | Get it |
-|---|---|---|
-| [Hyper Duel](https://github.com/searchsolved/Arcade-HyperDuel_MiSTer) | Hyper Duel (Technosoft, 1993). First FPGA implementation of the Imagetek I4220 video chip | In the official MiSTer distribution: just run Update All. Also on [MiSTer-devel](https://github.com/MiSTer-devel/Arcade-HyperDuel_MiSTer) |
-| [Dooyong](https://github.com/shmupfan/Arcade-Dooyong_MiSTer) | The Last Day, Gulf Storm, Pollux, Flying Tiger, Blue Hawk, Sadari, Gun Dealer '94, Super-X, R-Shark, Pop Bingo | Update All with the shmupfan database (below) |
-
-## Update All
-
-New cores land in the [shmupfan database](https://github.com/shmupfan/Distribution).
-Add these two lines to `/media/fat/downloader.ini` once, and every Update All
-run installs and updates them:
+Add these two lines to `/media/fat/downloader.ini`, then run Update All. New
+cores and updates arrive with every run.
 
 ```ini
 [shmupfan]
 db_url = https://raw.githubusercontent.com/shmupfan/Distribution/main/db.json
 ```
 
+## Cores
+
+| Core | Games | Install |
+|---|---|---|
+| [Dooyong](https://github.com/shmupfan/Arcade-Dooyong_MiSTer) | The Last Day, Gulf Storm, Pollux, Flying Tiger, Blue Hawk, Sadari, Gun Dealer '94, Super-X, R-Shark, Pop Bingo | shmupfan database |
+| [Hyper Duel](https://github.com/searchsolved/Arcade-HyperDuel_MiSTer) | Hyper Duel (Technosoft, 1993); first FPGA implementation of the Imagetek I4220 video chip | Official MiSTer distribution |
+
+In development: 1945k III / Solite Spirits, Final Star Force (Tecmo 16), Super
+Real Darwin / Last Mission / Gondomania (Data East DEC8), Twin Falcons / Turtle
+Ship / Dyger.
+
 ## Shmup Deck
 
 [Shmup Deck](https://github.com/shmupfan/shmup-deck) is a flyer-wall launcher
-for shoot 'em ups on the MiSTer. Open it on your phone, tap a flyer, and the
-MiSTer loads the game. It runs on the MiSTer itself and covers 294 shooters on
-106 arcade boards.
+that runs on the MiSTer: open it on a phone, tap a flyer, and the game loads.
+It covers 294 shooters on 106 arcade boards.
