@@ -1,7 +1,9 @@
 # Accuracy method
 
 Every shmupfan core is checked against evidence. Every difference from MAME is
-documented with its cause.
+documented with its cause. We do not decap chips or measure boards ourselves:
+we use published die-level models, chip and board documentation, PCB footage,
+measurements shared by board owners, and MAME, ranked as below.
 
 ## Evidence, highest first
 
