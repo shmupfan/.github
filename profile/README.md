@@ -18,10 +18,11 @@ db_url = https://raw.githubusercontent.com/shmupfan/Distribution/main/db.json
 
 | Core | Games | Install |
 |---|---|---|
+| [1945k III](https://github.com/shmupfan/Arcade-1945kIII_MiSTer) | 1945k III, Solite Spirits, '96 Flag Rally | shmupfan database |
 | [Dooyong](https://github.com/shmupfan/Arcade-Dooyong_MiSTer) | The Last Day, Gulf Storm, Pollux, Flying Tiger, Blue Hawk, Sadari, Gun Dealer '94, Super-X, R-Shark, Pop Bingo | shmupfan database |
 | [Hyper Duel](https://github.com/searchsolved/Arcade-HyperDuel_MiSTer) | Hyper Duel (Technosoft, 1993); first FPGA implementation of the Imagetek I4220 video chip | Official MiSTer distribution |
 
-In development: 1945k III / Solite Spirits, Final Star Force (Tecmo 16), Super
+In development: Final Star Force (Tecmo 16), Super
 Real Darwin / Last Mission / Gondomania (Data East DEC8), Twin Falcons / Turtle
 Ship / Dyger.
 
