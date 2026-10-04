@@ -20,11 +20,11 @@ db_url = https://raw.githubusercontent.com/shmupfan/Distribution/main/db.json
 |---|---|---|
 | [1945k III](https://github.com/shmupfan/Arcade-1945kIII_MiSTer) | 1945k III, Solite Spirits, '96 Flag Rally | shmupfan database |
 | [Dooyong](https://github.com/shmupfan/Arcade-Dooyong_MiSTer) | The Last Day, Gulf Storm, Pollux, Flying Tiger, Blue Hawk, Sadari, Gun Dealer '94, Super-X, R-Shark, Pop Bingo | shmupfan database |
+| [DEC8](https://github.com/shmupfan/Arcade-DEC8_MiSTer) | Last Mission, Gondomania, SRD: Super Real Darwin | shmupfan database |
+| [Tecmo 16](https://github.com/shmupfan/Arcade-Tecmo16_MiSTer) | Final Star Force, Riot, Ganbare Ginkun | shmupfan database |
 | [Hyper Duel](https://github.com/searchsolved/Arcade-HyperDuel_MiSTer) | Hyper Duel (Technosoft, 1993); first FPGA implementation of the Imagetek I4220 video chip | Official MiSTer distribution |
 
-In development: Final Star Force (Tecmo 16), Super
-Real Darwin / Last Mission / Gondomania (Data East DEC8), Twin Falcons / Turtle
-Ship / Dyger.
+In development: Twin Falcons / Turtle Ship / Dyger.
 
 ## Shmup Deck
 
