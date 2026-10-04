@@ -12,7 +12,7 @@ measurements shared by board owners, and MAME, ranked as below.
 | 1 | Real-board measurements (shared by board owners) | Scope, logic analyser, frequency counter, direct audio capture |
 | 2 | Die-level models of decapped chips | fx68k, Nuked-OPM/OPN/OPL, IKA cores |
 | 3 | Manufacturer documents | Schematics, parts lists, service manuals, datasheets (second reader for any reading that changes the design) |
-| 4 | Real boards observed | Direct PCB captures (60 fps preferred), 1CC runs, repair logs |
+| 4 | Real boards observed | Direct PCB captures (60 fps preferred), 1CC runs, repair logs; PCB audio for the balance between sound chips |
 | 5 | MAME | Frame-by-frame reference; its TODOs mark its guesses |
 | 6 | Other cores and emulators | Reference only |
 
@@ -24,7 +24,7 @@ open research item names the evidence needed.
 - ROMs and memory images byte-identical to MAME's.
 - Video replayed against MAME on every captured frame (attract, gameplay, flip, all sets) plus synthetic stress scenes.
 - Full system booted from power-on in simulation; every video, sound and I/O write compared with MAME.
-- Sound command streams, status reads and level compared with MAME.
+- Sound command streams, status reads and level compared with MAME. A schematic gives the mixing circuit but not each chip's output level, so where the balance between chips is in doubt it is measured from PCB recordings, matched scene by scene against the core.
 - MiSTer build simulated through ROM loading and SDRAM.
 - Played on a MiSTer before release.
 
@@ -54,6 +54,7 @@ Open an issue in the core's repository if you can provide any of these:
 - 60 fps captures of scene changes in 1945k III or Solite Spirits, and of text appearing in Final Star Force.
 - Cocktail mode on Last Mission or Gondomania (do sprites flip with the screen?).
 - Attract-mode audio of Blue Hawk or Flying Tiger.
+- Line-out audio of Last Mission or Gondomania (music against sound effects; their mix is set from an SRD board recording).
 - Photos of the 1945k III board around the SPR800E chip.
 
 Development used Anthropic's Claude as a coding tool. All MAME scripts and
