@@ -22,6 +22,7 @@ db_url = https://raw.githubusercontent.com/shmupfan/Distribution/main/db.json
 | [Dooyong](https://github.com/shmupfan/Arcade-Dooyong_MiSTer) | The Last Day, Gulf Storm, Pollux, Flying Tiger, Blue Hawk, Sadari, Gun Dealer '94, Super-X, R-Shark, Pop Bingo | shmupfan database |
 | [DEC8](https://github.com/shmupfan/Arcade-DEC8_MiSTer) | Last Mission, Gondomania, SRD: Super Real Darwin | shmupfan database |
 | [Tecmo 16](https://github.com/shmupfan/Arcade-Tecmo16_MiSTer) | Final Star Force, Riot, Ganbare Ginkun | shmupfan database |
+| [Taito G-NET](https://github.com/shmupfan/Arcade-TaitoGNET_MiSTer) (alpha) | Ray Crisis, Psyvariar -Medium Unit-, Psyvariar -Revision-, Shikigami no Shiro, Night Raid, XII Stag, Chaos Heat, Super Puzzle Bobble and 14 more. Game files are made from your MAME CHDs with the [converter](https://gnet-converter.pages.dev) | shmupfan database |
 | [Hyper Duel](https://github.com/searchsolved/Arcade-HyperDuel_MiSTer) | Hyper Duel (Technosoft, 1993); first FPGA implementation of the Imagetek I4220 video chip | Official MiSTer distribution |
 
 In development: Twin Falcons / Turtle Ship / Dyger.
